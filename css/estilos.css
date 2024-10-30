@@ -22,7 +22,14 @@ h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-
+h2 {
+    font-size: 30px;
+    color: red;
+}
+p {
+    font-size: 25px;
+    margin: 20px;
+}
 .movie-poster {
     width: 100%;
     height: auto;
@@ -37,13 +44,14 @@ h1 {
     display: block;
     width: 100%;
     padding: 15px;
-    background: #e63946;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
     font-size: 30px;
-    margin: 20px 0;
+    font-weight:600;
+    margin: 20px;
 }
 
 
@@ -60,5 +68,16 @@ h1 {
 
     .boton {
         font-size: 16px;
+        margin: 10px;
     }
+}
+.explicacion{
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.testimonials h2{
+    font-size: 25px;
+    color: pink;
 }
